@@ -20,7 +20,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
     <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script type="text/javascript" src="node_modules/smooth-scroll/dist/js/smooth-scroll.polyfills.min.js"></script>
     <script src="assets/js/Chart.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,10 +38,10 @@
 				<div class="row">
 					<div class="dropdown">
 						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+							<li class="menu-item"><a href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
 						</ul><!--/ uL#nav -->
 					</div><!-- /.dropdown -->
 
@@ -59,6 +59,7 @@
 				<div class="col-lg-12">
 					<h1>Letian Chen</h1>
 					<h3>Student at Peking University | <a href="mailto:zac.letian.chen@gmail.com">zac.letian.chen@gmail.com</a></h3>
+                    <h3>Welcome to my Github: <a href="https://github.com/sunshineclt"><i class="icon-github"></i></a></h3>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
 		</div><!--/.container -->
@@ -506,5 +507,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
   </body>
 </html>

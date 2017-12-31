@@ -1,0 +1,9 @@
+{
+  "name": "MyHomepage",
+  "version": "1.0.0",
+  "author": "Letian Chen",
+  "description": "My Homepage",
+  "dependencies": {
+    "smooth-scroll": "latest"
+  }
+}
