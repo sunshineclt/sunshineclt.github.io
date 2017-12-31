@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "author": "Letian Chen",
   "description": "My Homepage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunshineclt/sunshineclt.github.io"
+  },
+  "license":"MIT",
   "dependencies": {
     "smooth-scroll": "latest"
   }
