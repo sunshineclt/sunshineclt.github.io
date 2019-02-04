@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #F0BC76;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -153,15 +153,16 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header_pic.jpg) no-repeat center top;
+	background-image: url(../img/long_new.jpg);
+	background-repeat: no-repeat;
 	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
