@@ -77,13 +77,15 @@
 				</div>
 				<div class="col-lg-6">
 					<p>
-                        Hi! I am Letian (Zac) Chen, a first-year MSCS student at Georgia Tech.
+                        Hi! I am Letian (Zac) Chen, a second-year MSCS student at Georgia Tech.
                         I received my Bachelor’s degrees in psychology and computer science from Peking University in 2018.
-                        Prior to joining the CORE Robotics lab, I was in CVDA (CS) and CDLab (Psy) at Peking University (Beijing, China).
-                        I love researching and implementing cool stuff. I am interested in all kinds of intelligence problems (both artificial intelligence and human intelligence).
-                        Specifically, my current research interest primarily focuses on reinforcement learning of both human and machine, whom I believe could share certain sources of intelligence,
-                        including but not limited to reinforcement learning (dopamine system), hierarchical learning (hippocampus), and meta learning (pre-frontal cortex).
-                        <br>
+                        Prior to joining CORE Robotics lab (led by Professor <emph>Matthew Gombolay</emph>) in Georgia Tech, I was in CVDA (led by Professor <emph>Yizhou Wang</emph>) and CDLab (led by Professor <emph>Hang Zhang</emph>) at Peking University (Beijing, China).
+                        <br><br>
+                        I love research and implementing cool stuff. I am interested in all kinds of intelligence problems (both artificial intelligence and human intelligence).
+                        Specifically, my past research experience includes machine reinforcement learning (RL) algorithms and human learning modeling with RL, whom I believe could share certain sources of intelligence.
+                        I am now working on inverse reinforcement learning (IRL), which could serve as a method to transfer human intentions to machines through demonstration.
+<!--                        including but not limited to reinforcement learning (dopamine system), hierarchical learning (hippocampus), and meta learning (pre-frontal cortex).-->
+                        <br><br>
                         I really love making friends with similar interests :)
                         If you are interested about me, please feel free to contact me (<a href="#contact">contact info</a>).
 					</p>
@@ -125,7 +127,7 @@
 					<p>
                         <t>Bachelor of Science: Psychology</t><br/>
 						Peking University <br/>
-                        GPA: 3.64/4.0<br/>
+                        GPA: 3.78/4.0<br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
@@ -139,7 +141,7 @@
 					<p>
                         <t>Bachelor of Science: Computer Science and Technology</t><br/>
 						Peking University <br/>
-                        GPA: 3.8/4.0<br/>
+                        GPA: 3.80/4.0<br/>
 					</p>
 				</div>
                 <div class="col-lg-3">
@@ -162,14 +164,27 @@
             </div>
 
             <div class="col-lg-6">
-                <p><t>Model-Free and Model-Based Algorithms in Human Sequential Decision Making</t><br/>
-                    Undergraduate Thesis, Advisor: Hang Zhang, Peking University <br/>
+                <p><t>Joint Inference of Task Reward and Strategy Reward</t><br/>
+                    Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
                 </p>
                 <ul>
-                    <li>Designed an experiment to determine whether human uses model-free or model-based strategy under multi-task RL environment. </li>
-                    <li>Introduced forgetting mechanism in human RL algorithms. </li>
-                    <li>Used computational modeling methods to compare several existing and newly-introduced algorithms. </li>
-                    <li>Exploring meta-learning explanation on the experiment data. </li>
+                    <li>Modeled the reward functions that human demonstrations optimize as a linear combination of task reward (shared by all strategies) and strategy reward (specific to each strategy). </li>
+                    <li>Proposed a novel IRL framework where task rewards and strategic rewards are jointly inferred to gain a better estimation of the task reward and decomposition of strategy reward components. </li>
+                    <li>Applied algorithm on two virtual robot control tasks (Inverted Pendulum and Hopper) and one real robot table-tennis task; achieved better learning of task reward than SOTA AIRL and successfully extracted strategic rewards. </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>AUG 2019 - NOV 2019</sm></p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><t>Model-Free and Model-Based Algorithms in Human Sequential Decision Making</t><br/>
+                    Undergraduate Thesis, Advisor: <i>Hang Zhang</i>, Peking University <br/>
+                </p>
+                <ul>
+                    <li>Designed an experiment to investigate human’s strategy (model-free vs model-based) under multi-task RL setting. </li>
+                    <li>Showed hybrid model with forgetting mechanism better explain subject data than all other models via computational model comparison; Confirmed conclusion by simulation that learned hybrid model recovered subject behavior. </li>
+                    <li>Still exploring meta-learning computational model explanation. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
@@ -180,12 +195,12 @@
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p><t>Better Exploration using Good and Bad Demos</t><br/>
-                    Directed Research, Advisor: Yizhou Wang, Peking University <br/>
+                    Directed Research, Advisor: <i>Yizhou Wang</i>, Peking University <br/>
                 </p>
                 <ul>
-                    <li>Developed a tool to record human demos on OpenAI Universe platform. </li>
-                    <li>Built up a sample efficiency proof for our method based on Gaussian Process and Posterior Sampling. </li>
-                    <li>Proposed a new algorithm based on Bayesian Neural Network and Posterior Sampling. Experimental results showed it boosted RL exploration significantly. </li>
+                    <li>Introduced new algorithm built on Bayesian Neural Network and Thompson Sampling. </li>
+                    <li>Proposed sample efficiency proof for the new method based on Gaussian Process and Thompson Sampling. </li>
+                    <li>Developed tool to record human demonstrations on OpenAI Universe platform. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
@@ -217,7 +232,7 @@
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <p><t>First Prize of National Olympiad in Informatics in Provinces Advanced Group<br/>
+                <p><t>First Prize of National Olympiad in Informatics in Provinces Advanced Group</t><br/>
                 </p>
             </div>
 
@@ -240,15 +255,33 @@
                     <script>
                         var doughnutData = [
                             {
-                                value: 90,
+                                value: 100,
                                 color:"#1abc9c"
                             },
                             {
-                                value : 10,
+                                value : 0,
                                 color : "#ecf0f1"
                             }
                         ];
                         var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
+                    </script>
+                </div>
+                <div class="col-lg-3 centered">
+                    <canvas id="Tensorflow" height="130" width="130"></canvas>
+                    <p>Tensorflow</p>
+                    <br>
+                    <script>
+                        var doughnutData = [
+                            {
+                                value: 100,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 0,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("Tensorflow").getContext("2d")).Doughnut(doughnutData);
                     </script>
                 </div>
                 <div class="col-lg-3 centered">
@@ -269,7 +302,7 @@
                         var myDoughnut = new Chart(document.getElementById("Matlab").getContext("2d")).Doughnut(doughnutData);
                     </script>
                 </div>
-                <div class="col-lg-3 centered">
+                <div class="col-lg-3 col-lg-offset-3 centered">
                     <canvas id="C/C++" height="130" width="130"></canvas>
                     <p>C/C++</p>
                     <br>
@@ -287,7 +320,7 @@
                         var myDoughnut = new Chart(document.getElementById("C/C++").getContext("2d")).Doughnut(doughnutData);
                     </script>
                 </div>
-                <div class="col-lg-3 col-lg-offset-3 centered">
+                <div class="col-lg-3 centered">
                     <canvas id="Linux" height="130" width="130"></canvas>
                     <p>Linux</p>
                     <br>
@@ -323,24 +356,6 @@
                         var myDoughnut = new Chart(document.getElementById("JAVA").getContext("2d")).Doughnut(doughnutData);
                     </script>
                 </div>
-                <div class="col-lg-3 centered">
-                    <canvas id="Scheme" height="130" width="130"></canvas>
-                    <p>Scheme</p>
-                    <br>
-                    <script>
-                        var doughnutData = [
-                            {
-                                value: 50,
-                                color:"#1abc9c"
-                            },
-                            {
-                                value : 50,
-                                color : "#ecf0f1"
-                            }
-                        ];
-                        var myDoughnut = new Chart(document.getElementById("Scheme").getContext("2d")).Doughnut(doughnutData);
-                    </script>
-                </div>
                 <div class="col-lg-3 col-lg-offset-3 centered">
                     <canvas id="iOS Development (Swift)" height="130" width="130"></canvas>
                     <p>iOS Development (Swift)</p>
@@ -348,11 +363,11 @@
                     <script>
                         var doughnutData = [
                             {
-                                value: 90,
+                                value: 80,
                                 color:"#1abc9c"
                             },
                             {
-                                value : 10,
+                                value : 20,
                                 color : "#ecf0f1"
                             }
                         ];
@@ -384,11 +399,11 @@
                     <script>
                         var doughnutData = [
                             {
-                                value: 70,
+                                value: 80,
                                 color:"#1abc9c"
                             },
                             {
-                                value : 30,
+                                value : 20,
                                 color : "#ecf0f1"
                             }
                         ];
@@ -410,27 +425,53 @@
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>WORK</h5>
 				</div>
-				<div class="col-lg-6">
+
+                <div class="col-lg-6">
+                    <p><t>Research Assistant</t><br/>
+                        Georgia Institute of Technology<br/>
+                    </p>
+                    <ul>
+                        <li>Assisted Professor <i>Matthew Gombolay</i></li>
+                        <li>Worked on multi-agent expected policy gradient and sampling-based policy gradient from May 2019 - Aug 2019</li>
+                        <li>Worked on heterogeneous inverse reinforcement learning and robot table tennis from Sep 2019 - Dec 2019</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>MAY 2019 - CURRENT</sm></p>
+                </div>
+
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p><t>Teaching Assistant</t><br/>
+                        Georgia Institute of Technology<br/>
+                    </p>
+                    <ul>
+                        <li>Assisted CS 7641 <i>Machine Learning</i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>JAN 2019 - MAY 2019</sm></p>
+                </div>
+
+				<div class="col-lg-6 col-lg-offset-3">
 					<p><t>iOS Engineer</t><br/>
 						Peking University PKU Helper Team<br/>
 					</p>
                     <ul>
-                        <li>Developed and maintained iOS app PKU Helper for PKU campus life (10k+ users)</li>
-                        <li>Information and download link: <a href="http://pkuhelper.com/">PKU Helper</a></li>
+                        <li>Developed and maintained iOS app “PKU Helper” for Peking University campus life (10k+ users)</li>
+                        <li>Information and download link: <a href="https://pkuhelper.pku.edu.cn">PKU Helper</a></li>
                     </ul>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>SEP 2015 - CURRENT</sm></p>
+					<p><sm>SEP 2015 - AUG 2018</sm></p>
 				</div>
 
 				<div class="col-lg-6 col-lg-offset-3">
 					<p><t>Teaching Assistant</t><br/>
-						of <em>Introduction to Computation</em> with Prof. Jun Sun <br/>
+                        Peking University<br/>
 					</p>
                     <ul>
-                        <li>Designed problem sets every two weeks for students to practice</li>
-                        <li>Instructed students in practice set</li>
-                        <li>Assisted professor with mid-term and final exam</li>
+                        <li>Assisted Professor <i>Jun Sun</i> in <i>Introduction to Computation</i></li>
+                        <li>Designed practice sets, held office hour, set exam papers</li>
                     </ul>
 				</div>
 				<div class="col-lg-3">
@@ -511,7 +552,7 @@
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>
-						<a href="https://twitter.com/chen_letian"><i class="icon-twitter"></i></a>
+<!--						<a href="https://twitter.com/chen_letian"><i class="icon-twitter"></i></a>-->
 						<a href="https://www.facebook.com/zac.letian.chen"><i class="icon-facebook"></i></a>
 						<a href="https://www.linkedin.com/in/LetianChen"><i class="icon-linkedin"></i></a>
 						<a href="https://github.com/sunshineclt"><i class="icon-github"></i></a>
