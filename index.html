@@ -77,18 +77,17 @@
 				</div>
 				<div class="col-lg-6">
 					<p>
-                        Hi! I am Letian (Zac) Chen, a first-year PhD student at Georgia Tech.
+                        Hi! I am Letian (Zac) Chen, a third-year PhD student at Georgia Tech.
                         I received my Bachelor’s degrees in psychology and computer science from Peking University in 2018 and Master's degree in computer science from Georgia Tech in 2020.
-                        Prior to joining the CORE Robotics lab (led by Professor <emph>Matthew Gombolay</emph>) in Georgia Tech, I was in CVDA (led by Professor <emph>Yizhou Wang</emph>) and CDLab (led by Professor <emph>Hang Zhang</emph>) at Peking University (Beijing, China).
+                        Prior to joining the <a href="https://core-robotics.gatech.edu/">CORE Robotics lab</a> (led by Professor <emph>Matthew Gombolay</emph>) in Georgia Tech, I was in CVDA (led by Professor <emph>Yizhou Wang</emph>) and CDLab (led by Professor <emph>Hang Zhang</emph>) at Peking University (Beijing, China).
                         <br><br>
-                        I love researching and implementing cool stuff that works on robots.
+                        I love researching and implementing cool stuff that works in real-world.
                         I am interested in all kinds of intelligence problems, both artificial intelligence and human intelligence.
                         Specifically, I look into the intelligence problem through reinforcement learning perspective.
                         My research enables robots to infer human's intent in Learning from Demonstration settings, teasing out heterogeneity and suboptimality from the demonstrations.
-                        I envision human and machine share certain sources of intelligence, including but not limited to reinforcement learning (dopamine system), hierarchical learning (hippocampus), and meta learning (pre-frontal cortex),
-                        and I wish to reveal the mystery of intelligence through my work.
+                        I envision human and machine share certain sources of intelligence, including but not limited to reinforcement learning (dopamine system), hierarchical learning (hippocampus), and meta learning (pre-frontal cortex).
+                        I wish to reveal the mystery of intelligence through my work and make robot assistance accessible to everyone!
                         <br><br>
-                        I really love making friends with all kinds of backgrounds :)
                         If you want to learn more about me, please feel free to contact me (<a href="#contact">contact info</a>).
 					</p>
 				</div>
@@ -177,18 +176,33 @@
             </div>
 
             <div class="col-lg-6">
+                <p><t>Fast Lifelong Personalized Learning from Crowdsourced Demonstration</t><br/>
+                    Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
+                </p>
+                <ul>
+                    <li>Analyzed the personalization problem in lifelong learning from  demonstration process where large number of heterogeneous demonstrations arrive sequentially by federation among users. </li>
+                    <li>Proposed a novel IRL framework, FLAIR, to provide efficient personalization and scalability by constructing <i>policy mixtures</i> with a concise set of prototypical strategy policies </li>
+                    <li>Applied FLAIR on three virtual robotic control tasks and a real robot table-tennis task; achieved better personalization with significantly higher sample efficiency. </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>2021</sm></p>
+<!--                <p><a href="https://corlconf.github.io/corl2020/paper_281/"><i class="icon-file"></i><sm>Paper</sm></a></p>-->
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
                 <p><t>Learning from Suboptimal Demonstration via Self-Supervised Reward Regression</t><br/>
                     Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
                 </p>
                 <ul>
-                    <li>Characterized policy performance degradation from noise injection. </li>
-                    <li>Proposed a novel IRL framework, SSRR, that accurately learn the latent reward function from suboptimal demonstration. </li>
-                    <li>Proposed Noisy-AIRL to enhance the robustness of SSRR by providing more reliable initial reward. </li>
-                    <li>Applied algorithm on three virtual robot control tasks (HalfCheetah, Hopper, Ant) and one real robot table-tennis task; achieved more accurate learning of reward and better-than-best-demonstration policy. </li>
+                    <li>Characterized policy performance degradation from noise injection by a sigmoid function. </li>
+                    <li>Proposed a novel IRL framework, SSRR, to learn policies that are better than suboptimal demonstrations by inferring the idealized reward function (i.e., the latent intent of the demonstrator). </li>
+                    <li>Proposed Noisy-AIRL to enhance the robustness of SSRR by providing more reliable initial reward via training with noise. </li>
+                    <li>Applied algorithm on three virtual robotic tasks and a real robot table-tennis task; achieved accurate recovery of the demonstrator intention and a better-than-best-demonstration policy. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>DEC 2019 - AUG 2020</sm></p>
+                <p><sm>2020</sm></p>
                 <p><a href="https://corlconf.github.io/corl2020/paper_281/"><i class="icon-file"></i><sm>Paper</sm></a></p>
             </div>
 
@@ -199,12 +213,12 @@
                 <ul>
                     <li>Dissected and categorized the heterogeneous demonstration problems. </li>
                     <li>Designed multiple algorithms for learning from heterogeneous strategy and heterogeneous performance demonstrations. </li>
-                    <li>Showed our algorithm could achieve better learning from heterogeneous strategy demonstration than assuming homogeneity or dividing data to achieve homogeneity. </li>
-                    <li>Illustrated our algorithm could achieve better performance than suboptimal demonstrations and previous learning-from-suboptimal-demonstration techniques. </li>
+                    <li>Showed the algorithms could achieve better learning from heterogeneous strategy demonstration than assuming homogeneity or dividing data to achieve homogeneity. </li>
+                    <li>Illustrated the algorithms could achieve better performance than suboptimal demonstrations and previous learning-from-suboptimal-demonstration techniques. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>AUG 2019 - AUG 2020</sm></p>
+                <p><sm>2020</sm></p>
                 <p><a href="./assets/MasterThesis.pdf"><i class="icon-file"></i><sm>Download Thesis</sm></a></p>
             </div>
 
@@ -213,13 +227,13 @@
                     Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
                 </p>
                 <ul>
-                    <li>Modeled the reward functions that human demonstrations optimize as a linear combination of task reward (shared by all strategies) and strategy reward (specific to each strategy). </li>
-                    <li>Proposed a novel IRL framework where task rewards and strategic rewards are jointly inferred to gain a better estimation of the task reward and decomposition of strategy reward components. </li>
-                    <li>Applied algorithm on two virtual robot control tasks (Inverted Pendulum and Hopper) and one real robot table-tennis task; achieved better learning of task reward than SOTA AIRL and successfully extracted strategic rewards. </li>
+                    <li>Modeled humans' latent objective via shared task reward and individual strategy reward. </li>
+                    <li>Proposed a novel IRL framework, MSRD, to jointly infer task reward and strategy reward to gain a better estimation of both. </li>
+                    <li>Applied algorithm on two virtual robot control tasks and one real robot table-tennis task; achieved better learning of task reward than SOTA AIRL, extracted precise strategic rewards, and optimized versatile policies that resemble the heterogeneous demonstrations. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>AUG 2019 - NOV 2019</sm></p>
+                <p><sm>2019</sm></p>
                 <p><a href="https://dl.acm.org/doi/abs/10.1145/3319502.3374791"><i class="icon-file"></i><sm>Paper</sm></a></p>
             </div>
 
@@ -228,13 +242,13 @@
                     Undergraduate Thesis, Advisor: <i>Hang Zhang</i>, Peking University <br/>
                 </p>
                 <ul>
-                    <li>Designed an experiment to investigate human’s strategy (model-free vs model-based) under multi-task RL setting. </li>
-                    <li>Showed hybrid model with forgetting mechanism better explain subject data than all other models via computational model comparison; Confirmed conclusion by simulation that learned hybrid model recovered subject behavior. </li>
+                    <li>Designed an experiment to investigate human’s learning strategy (model-free vs model-based) under multi-task setting. </li>
+                    <li>Showed hybrid model with forgetting mechanism best explain subject data via computational model comparison; Confirmed conclusion by simulation that learned hybrid model recovered subject behavior. </li>
                     <li>Still exploring meta-learning computational model explanation. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>SEP 2017 - MAY 2018 - STILL EXPLORING</sm></p>
+                <p><sm>2018</sm></p>
                 <p><a href="./assets/UndergraduateThesis.pdf"><i class="icon-file"></i><sm>Download Thesis</sm></a></p>
             </div>
 
@@ -250,7 +264,7 @@
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>SEP 2016 - JAN 2018</sm></p>
+                <p><sm>2017</sm></p>
             </div>
         </div><!--/.row -->
         <br>
@@ -275,7 +289,7 @@
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <p><t>Graduate of merit in Beijing (5%)</t>
+                <p><t>Graduate of merit in Beijing</t>
                 </p>
             </div>
 
@@ -317,11 +331,25 @@
 				</div>
 
                 <div class="col-lg-6">
+                    <p><t>Research Assistant</t><br/>
+                        Georgia Institute of Technology<br/>
+                    </p>
+                    <ul>
+                        <li>Assisted Professor <i>Matthew Gombolay</i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>SEP 2021 - NOW</sm></p>
+                </div>
+
+                <div class="col-lg-6 col-lg-offset-3">
                     <p><t>Reinforcement Learning Intern</t><br/>
                         iRobot Corporation<br/>
                     </p>
                     <ul>
-                        <li>Research about Offline Policy Evaluation (OPE)</li>
+                        <li>Identified real-world challenges of Offline Policy Evaluation (OPE) methods.</li>
+                        <li>Created a ease-to-use benchmark dataset where real-world challenges present.</li>
+                        <li>Proposed an ad-hoc OPE algorithm selection method via validation mechanisms.</li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
@@ -360,7 +388,7 @@
                         <li>Assisted Professor <i>Matthew Gombolay</i></li>
                         <li>Worked on multi-agent expected policy gradient and sampling-based policy gradient from May 2019 - Aug 2019</li>
                         <li>Worked on heterogeneous inverse reinforcement learning and robot table tennis from Sep 2019 - Dec 2019</li>
-                        <li>Worked on learning from suboptimal demonstration from DEC 2019 - AUG 2019</li>
+                        <li>Worked on learning from suboptimal demonstration from Dec 2019 - Aug 2019</li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
