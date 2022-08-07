@@ -159,7 +159,7 @@ a:after {
 	margin-top: 60px;
 	padding-top:00px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: inherit;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
@@ -186,12 +186,12 @@ a:after {
 		 background-repeat: no-repeat;
 
 		 margin-top: 60px;
-		 padding-top:220px;
-		 padding-left: 400px;
+		 padding-top: 220px;
+		 padding-left: 50%;
 		 text-align:center;
-		 background-attachment: relative;
+		 background-attachment: inherit;
 		 background-position: center center;
-		 min-height: 700px;
+		 max-height: 400px;
 		 width: 100%;
 
 		 -webkit-background-size: 100%;
