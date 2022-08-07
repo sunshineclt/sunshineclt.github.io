@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #F0BC76;
+    color: #FCEDDA;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -153,11 +153,11 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background-image: url(../img/long_new.jpg);
+	background-image: url(../img/1.jpg);
 	background-repeat: no-repeat;
 
 	margin-top: 60px;
-	padding-top:140px;
+	padding-top:00px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -182,11 +182,12 @@ a:after {
 
  @media screen and (max-width: 1000px) {
 	 #headerwrap {
-		 background-image: url(../img/me.jpg);
+		 background-image: url(../img/2.jpg);
 		 background-repeat: no-repeat;
 
 		 margin-top: 60px;
-		 padding-top:140px;
+		 padding-top:220px;
+		 padding-left: 400px;
 		 text-align:center;
 		 background-attachment: relative;
 		 background-position: center center;
@@ -207,6 +208,10 @@ a:after {
 	 #headerwrap h1 {
 		 font-size: 50px;
 		 color: white;
+	 }
+
+	 #headerwrap h3 {
+		 font-size: 20px;
 	 }
  }
 
