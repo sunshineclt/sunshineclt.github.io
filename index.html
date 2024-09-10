@@ -59,8 +59,8 @@
 			<div class="row centered">
 				<div class="col-lg-12">
 					<h1>Letian (Zac) Chen</h1>
-					<h3>PhD Candidate at Georgia Institute of Technology | <a href="mailto:zac.letian.chen@gmail.com">zac.letian.chen@gmail.com</a></h3>
-                    <h3>Welcome to my Github: <a href="https://github.com/sunshineclt"><i class="icon-github"></i></a></h3>
+					<h3>PhD Candidate at Georgia Institute of Technology</h3>
+<!--                    <h3>Welcome to my Github: <a href="https://github.com/sunshineclt"><i class="icon-github"></i></a></h3>-->
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
 		</div><!--/.container -->
@@ -77,7 +77,7 @@
 				</div>
 				<div class="col-lg-6">
 					<p>
-                        Hi! I am Letian (Zac) Chen, a fourth-year PhD candidate at Georgia Tech.
+                        Hi! I am Letian (Zac) Chen, a final-year PhD candidate at Georgia Tech.
                         I received my Bachelor’s degrees in psychology and computer science from Peking University in 2018 and Master's degree in computer science from Georgia Tech in 2020.
                         Prior to joining the <a href="https://core-robotics.gatech.edu/">CORE Robotics lab</a> (led by Professor <emph>Matthew Gombolay</emph>) in Georgia Tech, I was in CVDA (led by Professor <emph>Yizhou Wang</emph>) and CDLab (led by Professor <emph>Hang Zhang</emph>) at Peking University (Beijing, China).
                         <br><br>
@@ -175,56 +175,91 @@
                 <h5>RESEARCH</h5>
             </div>
 
+<!--            <div class="col-lg-6">-->
+<!--                <p><t>Leveraging Large Language Models (LLMs) in Robot Learning for Demonstration</t><br/>-->
+<!--                </p>-->
+<!--                <ul>-->
+<!--                    <li>Developed a novel method to leverage LLMs to extract semantically meaningful features from human demonstrations. </li>-->
+<!--                    <li>Proposed a novel IRL algorithm to learn reward functions based on LLM extracted features and user demonstrations to achieve value alignment.  </li>-->
+<!--                    <li>Experimenting the algorithms with simulated and real user demonstrations. </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3">-->
+<!--                <p><sm>2024</sm></p>-->
+<!--            </div>-->
+
             <div class="col-lg-6">
-                <p><t>Fast Lifelong Personalized Learning from Crowdsourced Demonstration</t><br/>
-                    Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
+                <p><t>Safe Learning form Demonstration</t><br/>
                 </p>
                 <ul>
-                    <li>Analyzed the personalization problem in lifelong learning from  demonstration process where large number of heterogeneous demonstrations arrive sequentially by federation among users. </li>
-                    <li>Proposed a novel IRL framework, FLAIR, to provide efficient personalization and scalability by constructing <i>policy mixtures</i> with a concise set of prototypical strategy policies </li>
+                    <li>Created a new modality for users to specify safe vs. unsafe states for robots via demonstrations. </li>
+                    <li>Proposed a novel shielding algorithm, SECURE, that can be applied on policies to enforce customized safety bounds (defined by users), via a combination of data-driven control-barrier function and task-aware safe action search. </li>
+                    <li>Tested SECURE on two simulated robotic control tasks and a real robot kitchen cutting task where the robot is equipped with a knife; showed SECURE successfully prevent all unsafe executions, such as human-hand entering robot cutting space. </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>2022-2023</sm></p>
+                <p><a href="https://dl.acm.org/doi/abs/10.1145/3610977.3635002"><i class="icon-file"></i> <sm>Paper</sm></a></p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><t>Learning Interpretable Tree-based Control Policies for Autonomous Driving</t><br/>
+                </p>
+                <ul>
+                    <li>Developed interpretable, tree-based continuous-control models that allow gradient updates. </li>
+                    <li>Demonstrated the strong qualitative and quantitative performance of the proposed model in comparison with black-box neural networks in 10+ driving scenarios. </li>
+                    <li>Verified interpretability with user-studies to show the proposed model is easier and faster to interpret than neural networks and other interpretable models. </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>2022-2023</sm></p>
+                <p><a href="https://arxiv.org/abs/2311.10041"><i class="icon-file"></i> <sm>Paper</sm></a></p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><t>Learning from Offline Heterogeneous Demonstrations</t><br/>
+                </p>
+                <ul>
+                    <li>Analyzed real Mars rover driving data and identified heterogeneity among rover drivers. </li>
+                    <li>Proposed a novel IRL framework, DROID, to accommodate the offline learning required by the application while allowing learning from heterogeneous demonstrations via dual reward and policy distillation. </li>
+                    <li>Applied DROID on two simulated robotic control tasks and the real Mars rover path-planning problem; achieved better learning and generalization to unseen conditions in all three domains. </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p><sm>2022-2023</sm></p>
+                <p><a href="https://proceedings.mlr.press/v229/jayanthi23a.html"><i class="icon-file"></i> <sm>Paper</sm></a></p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
+                <p><t>Fast Lifelong Adaptive Learning from Demonstrations</t><br/>
+                </p>
+                <ul>
+                    <li>Analyzed the personalization problem in lifelong learning from demonstration process where large number of heterogeneous demonstrations arrive sequentially by federation among users. </li>
+                    <li>Proposed a novel IRL framework, FLAIR, to provide efficient personalization and scalability by constructing <i>policy mixtures</i> with a concise set of prototypical strategy policies. </li>
                     <li>Applied FLAIR on three virtual robotic control tasks and a real robot table-tennis task; achieved better personalization with significantly higher sample efficiency. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
                 <p><sm>2021</sm></p>
-<!--                <p><a href="https://corlconf.github.io/corl2020/paper_281/"><i class="icon-file"></i><sm>Paper</sm></a></p>-->
+                <p><a href="https://proceedings.mlr.press/v205/chen23e.html"><i class="icon-file"></i> <sm>Paper</sm></a></p>
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p><t>Learning from Suboptimal Demonstration via Self-Supervised Reward Regression</t><br/>
-                    Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
                 </p>
                 <ul>
                     <li>Characterized policy performance degradation from noise injection by a sigmoid function. </li>
                     <li>Proposed a novel IRL framework, SSRR, to learn policies that are better than suboptimal demonstrations by inferring the idealized reward function (i.e., the latent intent of the demonstrator). </li>
-                    <li>Proposed Noisy-AIRL to enhance the robustness of SSRR by providing more reliable initial reward via training with noise. </li>
                     <li>Applied algorithm on three virtual robotic tasks and a real robot table-tennis task; achieved accurate recovery of the demonstrator intention and a better-than-best-demonstration policy. </li>
                 </ul>
             </div>
             <div class="col-lg-3">
                 <p><sm>2020</sm></p>
-                <p><a href="https://corlconf.github.io/corl2020/paper_281/"><i class="icon-file"></i><sm>Paper</sm></a></p>
+                <p><a href="https://proceedings.mlr.press/v155/chen21b.html"><i class="icon-file"></i> <sm>Paper</sm></a></p>
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
-                <p><t>Robot Learning from Heterogeneous Demonstration</t><br/>
-                    Master Thesis, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
-                </p>
-                <ul>
-                    <li>Dissected and categorized the heterogeneous demonstration problems. </li>
-                    <li>Designed multiple algorithms for learning from heterogeneous strategy and heterogeneous performance demonstrations. </li>
-                    <li>Showed the algorithms could achieve better learning from heterogeneous strategy demonstration than assuming homogeneity or dividing data to achieve homogeneity. </li>
-                    <li>Illustrated the algorithms could achieve better performance than suboptimal demonstrations and previous learning-from-suboptimal-demonstration techniques. </li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <p><sm>2020</sm></p>
-                <p><a href="./assets/MasterThesis.pdf"><i class="icon-file"></i><sm>Download Thesis</sm></a></p>
-            </div>
-
-            <div class="col-lg-6 col-lg-offset-3">
-                <p><t>Joint Inference of Task Reward and Strategy Reward</t><br/>
-                    Graduate Research Assistant, Advisor: <i>Matthew Gombolay</i>, Georgia Tech <br/>
+                <p><t>Learning from Heterogeneous Demonstrations</t><br/>
                 </p>
                 <ul>
                     <li>Modeled humans' latent objective via shared task reward and individual strategy reward. </li>
@@ -233,38 +268,8 @@
                 </ul>
             </div>
             <div class="col-lg-3">
-                <p><sm>2019</sm></p>
-                <p><a href="https://dl.acm.org/doi/abs/10.1145/3319502.3374791"><i class="icon-file"></i><sm>Paper</sm></a></p>
-            </div>
-
-            <div class="col-lg-6 col-lg-offset-3">
-                <p><t>Model-Free and Model-Based Algorithms in Human Sequential Decision Making</t><br/>
-                    Undergraduate Thesis, Advisor: <i>Hang Zhang</i>, Peking University <br/>
-                </p>
-                <ul>
-                    <li>Designed an experiment to investigate human’s learning strategy (model-free vs model-based) under multi-task setting. </li>
-                    <li>Showed hybrid model with forgetting mechanism best explain subject data via computational model comparison; Confirmed conclusion by simulation that learned hybrid model recovered subject behavior. </li>
-                    <li>Still exploring meta-learning computational model explanation. </li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <p><sm>2018</sm></p>
-                <p><a href="./assets/UndergraduateThesis.pdf"><i class="icon-file"></i><sm>Download Thesis</sm></a></p>
-            </div>
-
-
-            <div class="col-lg-6 col-lg-offset-3">
-                <p><t>Better Exploration using Good and Bad Demos</t><br/>
-                    Directed Research, Advisor: <i>Yizhou Wang</i>, Peking University <br/>
-                </p>
-                <ul>
-                    <li>Introduced new algorithm built on Bayesian Neural Network and Thompson Sampling. </li>
-                    <li>Proposed sample efficiency proof for the new method based on Gaussian Process and Thompson Sampling. </li>
-                    <li>Developed tool to record human demonstrations on OpenAI Universe platform. </li>
-                </ul>
-            </div>
-            <div class="col-lg-3">
-                <p><sm>2017</sm></p>
+                <p><sm>2020</sm></p>
+                <p><a href="./assets/MasterThesis.pdf"><i class="icon-file"></i> <sm>Download Thesis</sm></a></p>
             </div>
         </div><!--/.row -->
         <br>
@@ -279,11 +284,16 @@
             </div>
 
             <div class="col-lg-6">
-                <p><t>Best paper finalist in Conference on Robot Learning (CoRL 2020)</t>
+                <p><t>Amazon Science Scholarship for AAAI 2022</t>
                 </p>
             </div>
 
             <div class="col-lg-6">
+                <p><t>Best paper finalist in Conference on Robot Learning (CoRL 2020)</t>
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3">
                 <p><t>First place in Brainhack ATL 2019 Track 2</t>
                 </p>
             </div>
@@ -331,6 +341,34 @@
 				</div>
 
                 <div class="col-lg-6">
+                    <p><t>Research Intern</t><br/>
+                        Waymo<br/>
+                    </p>
+                    <ul>
+                        <li>Designed input-output representations for fine-tuning large Vision-Language-Models (VLMs) for the vehicle planning task. </li>
+                        <li>Proposed a novel Reinforcement Learning algorithm for fine-tuning VLMs towards planning metrics to replace the usual token matching objectives in LM training. </li>
+                        <li>Developed training and evaluation pipeline infrastructure of the large VLM. Experiments show significant improvements in target behavior metrics via the proposed method. </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>MAY 2024 - DEC 2024</sm></p>
+                </div>
+
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p><t>Research Intern</t><br/>
+                        Toyota Research Institute<br/>
+                    </p>
+                    <ul>
+                        <li>Implemented DIAYN to generate diverse driving policies for autonomous racing. </li>
+                        <li>Proposed a novel algorithm, Learn Thy Enemy, to model and leverage opponent information in multi-car racing. </li>
+                        <li>Deployed DIAYN and LTE policies on motion simulator hardware and demonstrated qualitatively and quantitatively high performance. </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>MAY 2023 - AUG 2023</sm></p>
+                </div>
+
+                <div class="col-lg-6 col-lg-offset-3">
                     <p><t>Research Assistant</t><br/>
                         Georgia Institute of Technology<br/>
                     </p>
@@ -386,9 +424,9 @@
                     </p>
                     <ul>
                         <li>Assisted Professor <i>Matthew Gombolay</i></li>
-                        <li>Worked on multi-agent expected policy gradient and sampling-based policy gradient from May 2019 - Aug 2019</li>
-                        <li>Worked on heterogeneous inverse reinforcement learning and robot table tennis from Sep 2019 - Dec 2019</li>
-                        <li>Worked on learning from suboptimal demonstration from Dec 2019 - Aug 2019</li>
+<!--                        <li>Worked on multi-agent expected policy gradient and sampling-based policy gradient from May 2019 - Aug 2019</li>-->
+<!--                        <li>Worked on heterogeneous inverse reinforcement learning and robot table tennis from Sep 2019 - Dec 2019</li>-->
+<!--                        <li>Worked on learning from suboptimal demonstration from Dec 2019 - Aug 2019</li>-->
                     </ul>
                 </div>
                 <div class="col-lg-3">
@@ -426,7 +464,7 @@
 					</p>
                     <ul>
                         <li>Assisted Professor <i>Jun Sun</i> in <i>Introduction to Computation</i></li>
-                        <li>Designed practice sets, held office hour, set exam papers</li>
+<!--                        <li>Designed practice sets, held office hour, set exam papers</li>-->
                     </ul>
 				</div>
 				<div class="col-lg-3">
